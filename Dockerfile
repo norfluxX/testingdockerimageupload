@@ -5,7 +5,7 @@ FROM alpine:latest
 WORKDIR /app
 
 # Create a file named "example.txt" with the content "abc"
-RUN echo "abc" > example.txt
+RUN echo "zyz" > example.txt
 
 # Define the command to run when the container starts
 CMD ["cat", "example.txt"]
